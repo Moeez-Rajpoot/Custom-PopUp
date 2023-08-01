@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>PopUp</title>
 </head>
 <body>
+
+    <button id="Submit" onclick="openpop()"> Submit </button>
     
-</body>
+    <div class="container" id="pop">
+        <img src="./correct.png" id="correct">
+        <h2>Thank You!</h2>
+        <p>Yours Details have Successfully Submitted. Thank You.</p>
+        <button onclick="closepop()">OK</button>
+
+    </div>
+    
+    <script src="./logic.js"></script>
+</body> 
 </html>
